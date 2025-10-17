@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  width: 900px;
+  margin: 20px auto;
+  font-size: 32px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 900px;
+  padding: 0 40px;
+  background-color: solid #ccc;
+  box-sizing: border-box;
+}
+
+section .weather {
+  border: 1px solid #ccc;
+  flex: 0 0 180px;
+  padding: 16px;
+  text-align: center;
+  background-color: solid #ccc;
+  box-sizing: border-box;
+}
+
+.weather span {
+  font-weight: bold;
+}
